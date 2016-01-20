@@ -1,0 +1,184 @@
+/*
+Theme Name: GO TO RACE
+Author: Paul Kittiwongsunthorn & vamtam
+Author URI: http://www.paulkitti.com
+Template: church-event
+*/
+
+/*Home page event calendar*/
+.wpv-tribe-multiple-events .event-wrapper .title
+{padding-bottom:0px;
+min-height:140px;}
+
+/* Datetime next to calendar icon in single event page */
+.wpv-tribe-single-media.no-image .wpv-single-event-schedule .wpv-single-event-schedule-block.address .time
+{display: ;}
+
+.wpv-tribe-single-media .wpv-single-event-schedule .wpv-single-event-schedule-block.date-time .time
+{display: ;}
+
+/* Single event register button */
+.register-link-button
+{
+width: 100%;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+margin-top:50px;
+font-size:18px;
+background: #f70200;
+text-decoration: none;
+vertical-align: middle;
+overflow: hidden;
+text-shadow: none;
+border-radius: 0.2em;
+border: 0;
+line-height: 1.4em;
+transition: color .3s ease, border .3s ease, background .3s ease;
+color: #fff7f7;
+}
+
+.register-link-button:hover
+{
+width: 100%;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+margin-top:50px;
+font-size:18px;
+background: #9B9B9B;
+text-decoration: none;
+vertical-align: middle;
+overflow: hidden;
+text-shadow: none;
+border-radius: 0.2em;
+border: 0;
+line-height: 1.4em;
+transition: color .3s ease, border .3s ease, background .3s ease;
+color: #ffffff;
+}
+
+.register-link
+{
+min-height:50px;
+padding-top:30px;
+}
+
+.content-box
+{display: none;}
+
+nav.clearfix
+{display: none;}
+
+div.post-actions .icon
+{display: none;}
+
+.page-id-1849 .page-header .title {
+padding-top: 60px;
+}
+.wpv-single-event-after-details .sep{
+margin: 10px 0;
+}
+
+@media (max-width: 958px) {
+ .responsive-layout header.main-header #phone-num {
+  display: block;
+  text-align: right;
+  padding-right: 60px;
+ }
+}
+
+.wpv-tribe-multiple-events .event-wrapper .when-where,
+.tribe-events-event-meta .when-where,
+.wpv-single-event-schedule-block.date-time .when-where { display: none;}
+
+#line {
+vertical-align: top !important;
+}
+
+/* SHAREBOX */
+#sharebox{
+display: block;
+}
+
+#sharebox{
+display: block;
+}
+
+#sharebox img{
+display:inline-block;
+float:left;
+width:60px;
+padding-right: 10px;
+padding-bottom: 30px;
+}
+
+.button.button-border:hover, .button.button-border:hover span, .button.hover-accent1.button-border:hover, .button.hover-accent1.button-border:hover span, .button.vamtam-button.button-border:hover, .button.vamtam-button.button-border:hover span, .button.vamtam-button.hover-accent1.button-border:hover, .button.vamtam-button.hover-accent1.button-border:hover span, .slogan-content .button.button-border:hover, .slogan-content .button.button-border:hover span, .slogan-content .button.hover-accent1.button-border:hover, .slogan-content .button.hover-accent1.button-border:hover span 
+{
+min-width:100px;
+}
+
+.button.button-border:hover
+{
+margin-bottom:5px;
+margin-top:5px;
+}
+
+.button.button-border, .button.button-border span, .button.hover-accent1.button-border, .button.hover-accent1.button-border span, .button.vamtam-button.button-border, .button.vamtam-button.button-border span, .button.vamtam-button.hover-accent1.button-border, .button.vamtam-button.hover-accent1.button-border span, .slogan-content .button.button-border, .slogan-content .button.button-border span, .slogan-content .button.hover-accent1.button-border, .slogan-content .button.hover-accent1.button-border span 
+{
+min-width:100px;
+}
+
+.button.button-border
+{
+margin-bottom:5px;
+margin-top:5px;
+}
+
+.button.hover-accent3:hover, .button.hover-accent3:hover span, .button.hover-accent3:focus, .button.hover-accent3:focus span, .button.hover-accent3:active, .button.hover-accent3:active span, .button.vamtam-button.hover-accent3:hover, .button.vamtam-button.hover-accent3:hover span, .button.vamtam-button.hover-accent3:focus, .button.vamtam-button.hover-accent3:focus span, .button.vamtam-button.hover-accent3:active, .button.vamtam-button.hover-accent3:active span, .slogan-content .button.hover-accent3:hover, .slogan-content .button.hover-accent3:hover span, .slogan-content .button.hover-accent3:focus, .slogan-content .button.hover-accent3:focus span, .slogan-content .button.hover-accent3:active, .slogan-content .button.hover-accent3:active span
+{
+margin-bottom:5px;
+margin-top:5px;
+}
+
+.button.hover-accent3, .button.hover-accent3 span, .button.hover-accent3:focus, .button.hover-accent3:focus span, .button.hover-accent3:active, .button.hover-accent3:active span, .button.vamtam-button.hover-accent3, .button.vamtam-button.hover-accent3 span, .button.vamtam-button.hover-accent3:focus, .button.vamtam-button.hover-accent3:focus span, .button.vamtam-button.hover-accent3:active, .button.vamtam-button.hover-accent3:active span, .slogan-content .button.hover-accent3, .slogan-content .button.hover-accent3 span, .slogan-content .button.hover-accent3:focus, .slogan-content .button.hover-accent3:focus span, .slogan-content .button.hover-accent3:active, .slogan-content .button.hover-accent3:active span
+{
+margin-bottom:5px;
+margin-top:5px;
+}
+
+#oneone a{
+color:#fff;
+text-decoration: underline;
+}
+
+.oneone{
+color:#fff;
+}
+
+
+/* Feature button text color */
+
+.header-slider-wrapper a{
+color:#ffffff;
+}
+.header-slider-wrapper a:hover{
+color:#ffffff;
+}
+
+.header-slider-wrapper a:visited{
+color:#ffffff;
+}
+
+#facebook-likebox-2 a{
+font: 300 24px/23px "Raleway" !important;
+color: #ffffff !important;
+}
+
+#main input[type=tel]{
+width:99%;
+height:41px;
+padding-left:10px;
+}
