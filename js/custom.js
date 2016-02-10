@@ -92,7 +92,7 @@ jQuery(function($) {
   /* ----------------------------------------------------------- */
  /*ISotope Portfolio
  /* ----------------------------------------------------------- */   
-    
+$(window).load(function() {   
       var $container = $('.portfolio-wrap');
       var $filter = $('#isotope-filter');
       // Initialize isotope 
@@ -158,7 +158,7 @@ jQuery(function($) {
       
       function setProjects() { 
         setColumns();
-        container.isotope('reLayout');
+        container.isotope('layout');
       }   
       
       container.imagesLoaded(function () { 
@@ -169,7 +169,7 @@ jQuery(function($) {
       $(window).bind('resize', function () { 
         setProjects();      
       });
-
+});
    
    
    
