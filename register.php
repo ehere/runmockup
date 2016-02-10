@@ -101,21 +101,19 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-5 left">
+							<div class="col-md-5">
 								<div class="form-level">
 									<input name="name" placeholder="รหัสประจำตัวประชาชน" id="thaiid"  value="" type="text" class="input-block">
-									<span class="form-icon fa fa-user"></span>
+									<span class="form-icon fa fa-barcode"></span>
 								</div>
 							</div>
-							<div class="col-md-1" style="text-align:center;">
-								<div class="form-level input-block">
-									<span class="form-icon"  style="padding-left:0px;"><b>OR</b></span>
-								</div>
+							<div class="col-md-1" style="text-align:center;margin-top: 1em;margin-bottom: 1em;">
+								<b>OR</b>
 							</div>
-							<div class="col-md-5 right">
+							<div class="col-md-5">
 								<div class="form-level">
 									<input name="name" placeholder="Passport ID" id="passportid"  value="" type="text" class="input-block">
-									<span class="form-icon fa fa-user"></span>
+									<span class="form-icon fa fa-plane"></span>
 								</div>
 							</div>
 						</div>
@@ -136,6 +134,16 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-level">
+									<select name="gender" id="gender" class="form-control" onchange="updateGenderIcon()">
+										<option value="" disabled selected>เพศ</option>
+										<option value="male">ชาย</option>
+										<option value="female">หญิง</option>
+									</select>
+									<span id="gender-icon" class="form-icon fa fa-genderless"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-level">
 									<input name="birthday" placeholder="วันเกิด" id="birthday" class="input-block" type="text"  onclick="toTypeDate()" onblur="checkDateValue()">
 									<span class="form-icon fa fa-birthday-cake"></span>
 								</div>
@@ -152,6 +160,17 @@
 									jQuery(function($) {
 										$("#birthday").prop("type", "date");
 										$('.fa-birthday-cake').addClass('hidden');
+									});
+								}
+								function updateGenderIcon(){
+									jQuery(function($) {
+										var element = $('#gender-icon');
+										element.removeClass('fa-genderless');
+										if($('#gender').val() == 'male'){
+											element.removeClass('fa-venus').addClass('fa-mars');
+										} else {
+											element.removeClass('fa-mars').addClass('fa-venus');
+										}
 									});
 								}
 								</script>
@@ -320,32 +339,9 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
-		<!-- Google Map  Source -->
-		<script type="text/javascript" src="js/gmaps.js"></script>
 			 <!-- Custom js -->
 		<script src="js/custom.js"></script>
-		 <script>
-		// Google Map - with support of gmaps.js
-	 var map;
-		map = new GMaps({
-		  div: '#map',
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  scrollwheel: false,
-		  panControl: false,
-		  zoomControl: false,
-		});
 
-		map.addMarker({
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  title: 'Smilebuddy',
-		  infoWindow: { 
-			content: '<p> Smilebuddy, Dhanmondhi 27</p>'
-		  },
-		  icon: "images/map1.png"
-		});
-		</script>
  
 	</body>
 </html>
