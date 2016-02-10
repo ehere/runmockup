@@ -85,7 +85,7 @@
 							<h3 class="animated2"> <b>Phuket Marathon</b> </h3>
 							<div class="line"></div>
 							<p class="animated3">31 JAN 2016</p>
-							<a href="#" class="btn btn-danger btn-lg animated3">Register</a>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
 						</div>
 					</div>
 				</div>
@@ -98,7 +98,7 @@
 							<h3 class="animated3"><b>Tri Dash Bangkok 2016</b></h3>
 							<div class="line"></div>
 							<p class="animated3">14 FEB 2016</p>
-							<a href="#" class="btn btn-danger btn-lg animated3">Register</a>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 							<h3 class="animated3"><b>Run Run Run 2016</b></h3>
 							<div class="line"></div>
 							<p class="animated3">21 JUN 2016</p>
-							<a href="#" class="btn btn-danger btn-lg animated3">Register</a>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
 						</div>
 					</div>
 				</div>
