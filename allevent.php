@@ -19,7 +19,7 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-- Animation -->
 		<link rel="stylesheet" href="css/animate.css" />
 		<!-- Owl Carousel -->
@@ -37,6 +37,12 @@
 	
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			.pagination {
+				margin-top: 4em;
+				margin-bottom: 4em;
+			}
+		</style>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -229,6 +235,22 @@
 					</figure>
 				</li>
 			</ul>
+			<div class="row pagination">
+				<div class="col-xs-5">
+					<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> Back</a>
+				</div>
+				<div class="col-xs-2">
+					<div class="input-group">
+						<input type="number" class="form-control" placeholder="Jump to" min="1">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">Go!</button>
+						</span>
+					</div><!-- /input-group -->
+				</div>
+				<div class="col-xs-5">
+					<a href="#" class="btn btn-lg btn-default pull-left">Next <i class="fa fa-chevron-right"></i></a>
+				</div>			
+			</div>
 		</div> <!-- Container Full End -->
 </section>  <!-- Portfolio Section End -->
 
