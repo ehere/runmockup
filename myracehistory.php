@@ -60,11 +60,10 @@
 				 </div><!--Navbar header End-->
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
-							<li><a href="./" class="page-scroll">Home </a></li>
-							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
+							<li><a href="./" class="page-scroll">หน้าหลัก </a></li>
+							<li><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
 							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
-							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
+							<li><a href="./login.php" class="page-scroll">ออกจากระบบ</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
@@ -83,7 +82,7 @@
 							<div class="input-group">
 								<input type="text" class="form-control" placeholder="ใส่คำค้น">
 								<span class="input-group-btn">
-									<button class="btn btn-default" type="button">Search</button>
+									<button class="btn btn-default" type="button">ค้นหา</button>
 								</span>
 							</div>
 						</div>
@@ -114,7 +113,8 @@
 							<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
 							<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
 							<td>
-								<a href="./result-notpaid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+								<a href="./result-notpaid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
+								<a href="#" class="btn btn-default"><i class="fa fa-money"></i> แจ้งโอนเงิน</a>
 							</td>
 						</tr>
 						<tr>
@@ -122,7 +122,7 @@
 							<td><a href="./event.php">Phuket Marathon</a></td>
 							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
 							<td>
-								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
 							</td>
 						</tr>
 						<tr>
@@ -130,7 +130,7 @@
 							<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
 							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
 							<td>
-								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
 							</td>
 						</tr>
 					</table>
