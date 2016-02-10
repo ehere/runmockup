@@ -156,7 +156,7 @@
 			<div class="panel panel-warning">
 				<div class="panel-heading">แผนที่การแข่งขัน</div>
 				<div class="panel-body">
-    				Panel content
+					<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3875.764526955901!2d100.78054611478649!3d13.73270124035984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x0%3A0xcc678f180e221cd0!2sKMITL!3m2!1d13.730046!2d100.7783657!4m5!1s0x0%3A0xa43a1a714a611255!2z4LiT4Lig4Lix4LiR4LiQ4LmMIOC4reC4nuC4suC4o-C5jOC4l-C5gOC4oeC4meC4l-C5jA!3m2!1d13.735476199999999!2d100.78699669999999!5e0!3m2!1sth!2sth!4v1455121723233" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>				
 				</div>
 			</div>
 		</div>
