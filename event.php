@@ -38,6 +38,9 @@
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			body{background-color: #e5e5e5;}
+		</style>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -70,7 +73,7 @@
 				</div><!-- /.container-fluid -->
 </header>
 <!-- Event Title Start -->
-<section id="event-title" style="padding-top:100px;padding-bottom:14px;">
+<section id="event-title" style="padding-top:100px;padding-bottom:14px;background: #fff;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
@@ -85,7 +88,7 @@
 </section>
 <!-- Event Title end -->
 <!-- About details start -->
-<section id="about-details" style="background: url('../images/banner/banner.jpg')fixed 50% 50%;">
+<section id="about-details" style="background: url('./images/event/Phuket-Marathon-half-marathon-start.jpg')fixed 50% 50%;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-sm-4 col-xs-6" style="background:white;">
@@ -96,7 +99,7 @@
 						<div class="month" style="font-size: 2em;font-weight: light;padding:12px;">June</div>
 					</div>
 					<div class="divider"></div>
-					<a href="http://reg.gotorace.com/pim2016/signin.asp" target="_blank" class="btn btn-danger">Go Register</a>
+					<a href="./registerforrace.php" target="_blank" class="btn btn-danger">สมัครเลย</a>
 					<br><br>
 				</div>
 			</div>  <!-- Col-md-12 End -->
@@ -108,7 +111,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-sm-8 col-xs-12">
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">คำอธิบาย</div>
 				<div class="panel-body">
 					<div class="row">
@@ -120,37 +123,41 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">ระยะทาง</div>
 				<div class="panel-body">
-    				<?php include('./distance.html'); echo('sdfsdf'); ?>
+    				<?php include('./mockup/distance.html');?>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">ประเภทการแข่งขัน</div>
 				<div class="panel-body">
-    				Panel content
+    				<?php include('./mockup/racetype.html');?>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">การรับของและการลงทะเบียน</div>
-				<div class="panel-body">
-    				Panel content
+				<div class="panel-body text-center">
+    				<?php include('./mockup/racekit.html');?>
+    				<br>
+    				<a href="./registerforrace.php" target="_blank" class="btn btn-lg btn-danger center">สมัครเลย</a>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">ค่าลงทะเบียน</div>
-				<div class="panel-body">
-    				Panel content
+				<div class="panel-body text-center">
+    				<?php include('./mockup/fee.html');?>
+    				<br>
+    				<a href="./registerforrace.php" target="_blank" class="btn btn-lg btn-danger center">สมัครเลย</a>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">หมายเหตุ</div>
 				<div class="panel-body">
-    				Panel content
+    				<?php include('./mockup/remark.html');?>
 				</div>
 			</div>
-			<div class="panel panel-primary">
+			<div class="panel panel-warning">
 				<div class="panel-heading">แผนที่การแข่งขัน</div>
 				<div class="panel-body">
     				Panel content
@@ -161,7 +168,20 @@
 			<div class="panel panel-info">
 				<div class="panel-heading">ข้อมูล</div>
 				<div class="panel-body">
-    				Panel content
+    				<dl>
+						<dt> Race Day: </dt>
+						<dd>
+							<abbr class="tribe-events-abbr updated published dtstart" title="2016-06-05"> June 5 </abbr>
+						</dd>
+						<dt> Time: </dt>
+						<dd>
+							<abbr class="tribe-events-abbr updated published dtstart" title="2016-06-05">4:00 am - 12:00 pm</abbr>
+						</dd>
+						<dt>Location Tags:</dt>
+						<dd class="tribe-event-tags">
+							<a href="http://www.gotorace.com/tag/phuket/" rel="tag">Phuket</a>, <a href="http://www.gotorace.com/tag/thailand/" rel="tag">Thailand</a>
+						</dd>
+					</dl>
 				</div>
 			</div>
 		</div>

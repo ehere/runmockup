@@ -102,12 +102,9 @@
 						<figure>
 							<img src="images/event/angkor.jpg" alt="" />
 							<figcaption>
-								<h5>Sihanoukville International Half Marathon 2016</h5>
+								<a href="event.php"><h5>Sihanoukville International Half Marathon 2016</h5></a>
 								<p class="links">
 									<a href="event.html"> <i class="fa fa-link"></i></a>
-									<a href="images/event/p1.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
 								</p>
 								<p class="description">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -120,17 +117,14 @@
 						<figure>
 						<img src="images/event/cocacola.jpg" alt="" />
 							<figcaption>
-								<h5>Coca Cola LONGRUN 2016</h5>
+								<a href="event.php"><h5>Coca Cola LONGRUN 2016</h5></a>
 								<p class="links">
-									<a href="event.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p2.jpg"  data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
+									<a href="event.php"> <i class="fa fa-link"></i></a>
 								</p>
 								<p class="description">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 								</p>
-								</figcaption>
+							</figcaption>
 						</figure>
 					</li>
 
@@ -138,12 +132,9 @@
 						<figure>
 							<img src="images/event/laguna.jpg" alt="" />
 							<figcaption>
-								<h5>Laguna Phuket International Marathon 2016</h5>
+								<a href="event.php"><h5>Laguna Phuket International Marathon 2016</h5></a>
 								<p class="links">
 									<a href="event.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p3.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
 								</p>
 								<p class="description">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -156,12 +147,9 @@
 						<figure>
 							<img src="images/event/tridash.jpg" alt="" />
 							<figcaption>
-								<h5>Tri Dash Bangkok 2016</h5>
+								<a href="event.php"><h5>Tri Dash Bangkok 2016</h5></a>
 								<p class="links">
 									<a href="event.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p7.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
 								</p>
 								<p class="description">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit.

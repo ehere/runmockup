@@ -2632,3 +2632,19 @@ iframe{
     right: 10px;
     top: -10px;
 }
+
+.panel {
+    border-radius: 0px;
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.06);
+    box-shadow: 2px 2px 2px 0px rgba(5, 5, 5, 0.06);
+    margin-bottom: 30px;
+    border: 0px;
+}
+.panel-warning>.panel-heading {
+    color: #fff;
+    background-color: #f70200;
+    border-color: #f70200;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
