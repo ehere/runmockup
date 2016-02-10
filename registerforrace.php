@@ -19,7 +19,7 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-- Animation -->
 		<link rel="stylesheet" href="css/animate.css" />
 		<!-- Owl Carousel -->
@@ -34,13 +34,9 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
-		<style type="text/css">
-			body{background-color: #e5e5e5;}
-		</style>
+		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -72,125 +68,165 @@
 					 </nav>
 				</div><!-- /.container-fluid -->
 </header>
-<!-- Event Title Start -->
-<section id="event-title" style="padding-top:100px;padding-bottom:14px;background: #fff;">
+
+<!-- Conatct Area Start-->
+
+<section id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="feature_header">
-					<div class="row">
-						<h3 class="feature_title" style="margin:0;width:100%"><b>Ladkrabang Running 2016</b></h3>
-					</div>
-				</div>
-			</div>  <!-- Col-md-12 End -->
-		</div>	
-	</div>
-</section>
-<!-- Event Title end -->
-<!-- About details start -->
-<section id="about-details" style="background: url('./images/event/Phuket-Marathon-half-marathon-start.jpg')fixed 50% 50%;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2 col-sm-4 col-xs-6" style="background:white;">
-				<div class="text-center">
-					<br>
-					<div class="date">
-						<div class="day" style="font-size: 3em;font-weight: bold;padding:20px;">05</div>
-						<div class="month" style="font-size: 2em;font-weight: light;padding:12px;">June</div>
-					</div>
+				<div class="feature_header text-center">
+					<h4 class="feature_title"><b>สมัคร</b>เข้าร่วมกิจกรรม</h4>
+					<h3 class="feature_title">Ladkrabang Running 2016</h3>
 					<div class="divider"></div>
-					<a href="./registerforrace.php" target="_blank" class="btn btn-main featured">สมัครเลย</a>
-					<br><br>
 				</div>
-			</div>  <!-- Col-md-12 End -->
-		</div>	
-	</div>
-</section>
-<!-- Event details start -->
-<section id="event-detail" style="padding-top: 20px;">
-<div class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-8 col-xs-12">
-			<div class="panel panel-warning">
-				<div class="panel-heading">คำอธิบาย</div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-md-5 col-sm-4">
-							<img src="./images/event/event-logo.jpg" style="width:100%;">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label for="racedate" class="col-sm-2 control-label">วันที่แข่งขัน</label>
+						<div class="col-sm-10">
+							<select name="racedate" id="racedate" class="form-control">
+								<option value="" disabled selected>โปรดเลือกวันที่</option>
+								<option value="2016-06-04">4 มิถุนายน 2559</option>
+								<option value="2016-06-05">5 มิถุนายน 2559</option>
+							</select>
 						</div>
-						<div class="col-md-7 col-sm-8">
-							การแข่งขันลากูน่าภูเก็ตมาราธอนนานาชาติ™ ครั้งที่ 11 จะจัดขึ้น ในวันเสาร์ที่ 4 และ อาทิตย์ที่ 5 มิถุนายน 2559 การแข่งขันในครั้งที่ผ่านมานั้น ประสบความสำเร็จอย่างสูง ด้วยจำนวนผู้เข้าร่วมแข่งขันกว่า 6,000 คน จาก 50 ประเทศทั่วโลก ในปี 2559 นี้ คาดว่าจะมีผู้เข้าร่วมแข่งขันทั้งวิ่งและเดิน มากกว่า 7,000 คน มาร่วมสนุกและพิสูจน์ตนเอง ที่ลากูน่าภูเก็ตมาราธอนนานาชาติ</div>
+					</div>
+					<div class="form-group">
+						<label for="race" class="col-sm-2 control-label">ประเภทการแข่ง</label>
+						<div class="col-sm-10">
+							<select name="race" id="race" class="form-control">
+								<option value="" disabled selected>โปรดเลือกการแข่ง</option>
+								<option value="rk2km">วิ่งยุวชน 2 กม.</option>
+								<option value="r10.5km">วิ่ง 10.5 กม.</option>
+								<option value="r5km">วิ่ง 5 กม.</option>
+								<option value="w5km">เดิน 5 กม.</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="agegroup" class="col-sm-2 control-label">กลุ่มอายุ</label>
+						<div class="col-sm-10">
+							ทั่วไป
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="shirtsize" class="col-sm-2 control-label">ขนาดเสื้อ</label>
+						<div class="col-sm-10">
+							<select name="shirtsize" id="shirtsize" class="form-control">
+								<option value="" disabled selected>โปรดเลือกขนาดเสื้อ</option>
+								<option value="s">S</option>
+								<option value="m">M</option>
+								<option value="l">L</option>
+								<option value="xl">XL</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="divider"></div>
+
+					<div class="form-group form-inline">
+						<label for="item1" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</label>
+						<div class="col-sm-10">
+							<input name="item1price" value="950" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item1quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="item2" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(เด็ก)</label>
+						<div class="col-sm-10">
+							<input name="item2price" value="450" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item2quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="item3" class="col-sm-2 control-label">แพ็คเกจภาพถ่าย</label>
+						<div class="col-sm-10">
+							<input name="item3price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item3quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="item4" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันมาราธอน</label>
+						<div class="col-sm-10">
+							<input name="item4price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item4quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="item5" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันฮาล์ฟมาราธอน</label>
+						<div class="col-sm-10">
+							<input name="item5price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item5quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="item6" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันวิ่ง 10 กม.</label>
+						<div class="col-sm-10">
+							<input name="item6price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
+							<input name="item6quantity" value="0" type="number" step="1" min="0" class="form-control">
+						</div>
+					</div>
+
+					<div class="divider"></div>
+
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox"> ข้าพเจ้าขอยืนยันว่าข้าพเจ้ามีสุขภาพสมบูรณ์แข็งแรงและพร้อมที่จะทำการแข่งขัน ข้าพเจ้ายอมรับว่าการลงทะเบียนเข้าร่วมแข่งขัน เป็นความยินยอมและเป็นความเสี่ยงของข้าพเจ้าเอง และคณะกรรมการผู้จัดงาน ไม่ต้องรับผิดชอบในกรณี บาดเจ็บ เจ็บป่วยหรือสูญเสีย ทรัพย์สิน ที่เกิดระหว่างการแข่งขัน หรืออันเป็นผลเนื่องมาจากการแข่งขัน และข้าพเจ้าได้อ่าน และทำความเข้าใจกฎ กติกา และข้อ บังคับเกี่ยวกับการแข่งขัน เรียบร้อยแล้ว
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="panel panel-warning">
+					<div class="panel-heading">รวมยอดเงิน</div>
+					<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
+						<table class="table">
+						<tr>
+							<th>รายการ</th>
+							<th>จำนวน</th>
+							<th>ราคา</th>
+						</tr>
+						<tr>
+							<td>เดิน 5 กม.</td>
+							<td>1</td>
+							<td>350</td>
+						</tr>
+						<tr>
+							<td>บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</td>
+							<td>1</td>
+							<td>950</td>
+						</tr>
+						<tr>
+							<td>บัตรงานเลี้ยงพาสต้า(เด็ก)</td>
+							<td>2</td>
+							<td>900</td>
+						</tr>
+						<tr>
+							<th colspan="2">รวม</th>
+							<th>2200</th>
+						</tr>
+						</table>
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">ระยะทาง</div>
-				<div class="panel-body">
-    				<?php include('./mockup/distance.html');?>
-				</div>
-			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">ประเภทการแข่งขัน</div>
-				<div class="panel-body">
-    				<?php include('./mockup/racetype.html');?>
-				</div>
-			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">การรับของและการลงทะเบียน</div>
-				<div class="panel-body text-center">
-    				<?php include('./mockup/racekit.html');?>
-    				<br>
-    				<a href="./registerforrace.php" target="_blank" class="btn btn-lg btn-main featured">สมัครเลย</a>
-				</div>
-			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">ค่าลงทะเบียน</div>
-				<div class="panel-body text-center">
-    				<?php include('./mockup/fee.html');?>
-    				<br>
-    				<a href="./registerforrace.php" target="_blank" class="btn btn-lg btn-main featured">สมัครเลย</a>
-				</div>
-			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">หมายเหตุ</div>
-				<div class="panel-body">
-    				<?php include('./mockup/remark.html');?>
-				</div>
-			</div>
-			<div class="panel panel-warning">
-				<div class="panel-heading">แผนที่การแข่งขัน</div>
-				<div class="panel-body">
-    				Panel content
-				</div>
-			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 col-xs-12">
-			<div class="panel panel-info">
-				<div class="panel-heading">ข้อมูล</div>
-				<div class="panel-body">
-    				<dl>
-						<dt> Race Day: </dt>
-						<dd>
-							<abbr class="tribe-events-abbr updated published dtstart" title="2016-06-05"> June 5 </abbr>
-						</dd>
-						<dt> Time: </dt>
-						<dd>
-							<abbr class="tribe-events-abbr updated published dtstart" title="2016-06-05">4:00 am - 12:00 pm</abbr>
-						</dd>
-						<dt>Location Tags:</dt>
-						<dd class="tribe-event-tags">
-							<a href="http://www.gotorace.com/tag/phuket/" rel="tag">Phuket</a>, <a href="http://www.gotorace.com/tag/thailand/" rel="tag">Thailand</a>
-						</dd>
-					</dl>
-				</div>
-			</div>
+		<div class="text-center">
+			<button class="btn btn-main featured">สมัครแข่งขัน</button>
 		</div>
 	</div>
-</div>
 </section>
-<!-- Event Detail end -->
+
 
 <!-- Footer Area Start -->
+
 <section id="footer">
 	<div class="footer_top">
 		<div class="container">
@@ -298,9 +334,9 @@
 
 		<!-- initialize jQuery Library -->
 		<!-- Main jquery -->
-			<script type="text/javascript" src="js/jquery.js"></script>
+		
 		<!-- Bootstrap jQuery -->
-		 <script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
@@ -308,7 +344,7 @@
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
-			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 		<!-- SmoothScroll -->
 		<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<!-- Image Fancybox -->
@@ -327,32 +363,9 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
-		<!-- Google Map  Source -->
-		<script type="text/javascript" src="js/gmaps.js"></script>
 			 <!-- Custom js -->
 		<script src="js/custom.js"></script>
-		 <script>
-		// Google Map - with support of gmaps.js
-	 var map;
-		map = new GMaps({
-		  div: '#map',
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  scrollwheel: false,
-		  panControl: false,
-		  zoomControl: false,
-		});
 
-		map.addMarker({
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  title: 'Smilebuddy',
-		  infoWindow: { 
-			content: '<p> Smilebuddy, Dhanmondhi 27</p>'
-		  },
-		  icon: "images/map1.png"
-		});
-		</script>
  
 	</body>
 </html>

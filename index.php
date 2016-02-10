@@ -144,7 +144,7 @@
 					<h4 class="feature_sub">Next Event</h4>
 					<div class="row">
 						<div class="col-md-6">
-							<h3 class="feature_title" style="margin:0;width:100%"><b>Ladkrabang Running 2016</b></h3>
+							<h3 class="feature_title" style="margin:0;"><b>Ladkrabang Running 2016</b></h3>
 						</div>
 						<div class="col-md-6">
 							<img src="./images/countdown.jpg">
@@ -762,7 +762,7 @@
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
-		<script src="js/isotope.min.js"></script>imagesloaded.min.js
+		<script src="js/isotope.min.js"></script>
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
@@ -785,32 +785,9 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
-		<!-- Google Map  Source -->
-		<script type="text/javascript" src="js/gmaps.js"></script>
 			 <!-- Custom js -->
 		<script src="js/custom.js"></script>
-		 <script>
-		// Google Map - with support of gmaps.js
-	 var map;
-		map = new GMaps({
-		  div: '#map',
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  scrollwheel: false,
-		  panControl: false,
-		  zoomControl: false,
-		});
 
-		map.addMarker({
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  title: 'Smilebuddy',
-		  infoWindow: { 
-			content: '<p> Smilebuddy, Dhanmondhi 27</p>'
-		  },
-		  icon: "images/map1.png"
-		});
-		</script>
  
 	</body>
 </html>

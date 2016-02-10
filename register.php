@@ -316,7 +316,7 @@
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
-		<script src="js/isotope.min.js"></script>imagesloaded.min.js
+		<script src="js/isotope.min.js"></script>
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
