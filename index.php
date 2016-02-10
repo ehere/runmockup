@@ -61,9 +61,9 @@
 				 </div><!--Navbar header End-->
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
-							<li class="active"> <a href="./" class="page-scroll">Home </a></li>
-							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li><a href="./register.php" class="page-scroll">Register</a> </li>
+							<li class="active"> <a href="./">Home </a></li>
+							<li><a href="./allevent.php">All Events</a> </li>
+							<li><a href="./register.php">Register</a> </li>
 							<li><a href="./login.php" class="page-scroll">Login</a> </li>
 						</ul>
 					 </nav>
@@ -175,159 +175,146 @@
 
 	<div id="isotope-filter" class="skew3 text-center">
 		<a data-filter="*"  href="#" class="active ">All</a>
-		<a data-filter=".identity"  href="#" class="">Identity</a>
-		<a data-filter=".web-design" href="#"  class="">Web Design</a>
-		<a data-filter=".graphic"  href="#" class="">Graphic</a>
-		<a data-filter=".logo"  href="#" class="">Photography</a>
+		<a data-filter=".identity"  href="#" class="">Marathon</a>
+		<a data-filter=".web-design" href="#"  class="">Fun Run</a>
+		<a data-filter=".graphic"  href="#" class="">Half Marathon</a>
+		<a data-filter=".logo"  href="#" class="">5 Km</a>
 	</div>
 	<div class="clearfix"></div>
-			<div class="text-center ">
-			  <ul class="portfolio-wrap" id="portfolio_items">
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio identity web-design">
-						<figure>
-							<img src="images/portfolio/p1.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p1.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+		<div class="text-center ">
+			<ul class="portfolio-wrap" id="portfolio_items">
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio identity web-design">
+					<figure>
+						<img src="images/event/angkor.jpg" alt="" />
+						<figcaption>
+							<a href="event.php"><h5>Sihanoukville International Half Marathon 2016</h5></a>
+							<p class="links">
+								<a href="event.php">รายละเอียด</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo graphic">
-						<figure>
-						<img src="images/portfolio/p2.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p2.jpg"  data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-								</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo graphic">
+					<figure>
+					<img src="images/event/cocacola.jpg" alt="" />
+						<figcaption>
+							<a href="event.php"><h5>Coca Cola LONGRUN 2016</h5></a>
+							<p class="links">
+								<a href="event.php">รายละเอียด</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio graphic logo">
-						<figure>
-							<img src="images/portfolio/p3.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p3.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio graphic logo">
+					<figure>
+						<img src="images/event/laguna.jpg" alt="" />
+						<figcaption>
+							<a href="event.php"><h5>Laguna Phuket International Marathon 2016</h5></a>
+							<p class="links">
+								<a href="event.php">รายละเอียด</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio web-design identity">
-						<figure>
-							<img src="images/portfolio/p7.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p7.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio web-design identity">
+					<figure>
+						<img src="images/event/tridash.jpg" alt="" />
+						<figcaption>
+							<a href="event.php"><h5>Tri Dash Bangkok 2016</h5></a>
+							<p class="links">
+								<a href="event.php">รายละเอียด</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo web-design">
-						<figure>
-							<img src="images/portfolio/p5.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p5.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo web-design">
+					<figure>
+						<img src="images/portfolio/p5.jpg" alt="" />
+						<figcaption>
+							<h5>Creative Zoe</h5>
+							<p class="links">
+								<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
+								<a href="images/portfolio/p5.jpg" data-rel="prettyPhoto" class="img-responsive">
+									<i class="fa fa-plus"></i>
+								</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo graphic">
-						<figure>
-							<img src="images/portfolio/p6.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p6.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio logo graphic">
+					<figure>
+						<img src="images/portfolio/p6.jpg" alt="" />
+						<figcaption>
+							<h5>Creative Zoe</h5>
+							<p class="links">
+								<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
+								<a href="images/portfolio/p6.jpg" data-rel="prettyPhoto" class="img-responsive">
+									<i class="fa fa-plus"></i>
+								</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio graphic identity">
-						<figure>
-							<img src="images/portfolio/p3.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p3.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio graphic identity">
+					<figure>
+						<img src="images/portfolio/p3.jpg" alt="" />
+						<figcaption>
+							<h5>Creative Zoe</h5>
+							<p class="links">
+								<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
+								<a href="images/portfolio/p3.jpg" data-rel="prettyPhoto" class="img-responsive">
+									<i class="fa fa-plus"></i>
+								</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
 
-					<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio web-design graphic">
-						<figure>
-							<img src="images/portfolio/p7.jpg" alt="" />
-							<figcaption>
-								<h5>Creative Zoe</h5>
-								<p class="links">
-									<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
-									<a href="images/portfolio/p7.jpg" data-rel="prettyPhoto" class="img-responsive">
-										<i class="fa fa-plus"></i>
-									</a>
-								</p>
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								</p>
-							</figcaption>
-						</figure>
-					</li>
-
-				</ul>
+				<li class="col-xs-12 col-sm-6 col-md-3 single-portfolio web-design graphic">
+					<figure>
+						<img src="images/portfolio/p7.jpg" alt="" />
+						<figcaption>
+							<h5>Creative Zoe</h5>
+							<p class="links">
+								<a href="portfolio-single.html"> <i class="fa fa-link"></i></a>
+								<a href="images/portfolio/p7.jpg" data-rel="prettyPhoto" class="img-responsive">
+									<i class="fa fa-plus"></i>
+								</a>
+							</p>
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
 		</div> <!-- Container Full End -->
 </section>  <!-- Portfolio Section End -->
 

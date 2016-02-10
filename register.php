@@ -62,7 +62,7 @@
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">Home </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li class="active"><a href="./register.html" class="page-scroll">Register</a> </li>
+							<li class="active"><a href="./register.php" class="page-scroll">Register</a> </li>
 							<li><a href="./login.php" class="page-scroll">Login</a> </li>
 						</ul>
 					 </nav>
