@@ -61,9 +61,9 @@
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">Home </a></li>
-							<li><a href="./allevent.html"  class="page-scroll">All Events</a> </li>
+							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
 							<li class="active"><a href="./register.html" class="page-scroll">Register</a> </li>
-							<li><a href="./login.html" class="page-scroll">Login</a> </li>
+							<li><a href="./login.php" class="page-scroll">Login</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
