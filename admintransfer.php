@@ -65,8 +65,8 @@
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">หน้าหลัก </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
-							<li><a href="./myracehistory.php" class="page-scroll">รายการใบสมัคร</a> </li>
-							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการแจ้งโอนเงิน</a> </li>
+							<li><a href="./adminorder.php" class="page-scroll">รายการใบสมัคร</a> </li>
+							<li class="active"><a href="./admintransfer.php" class="page-scroll">รายการแจ้งโอนเงิน</a> </li>
 							<li><a href="./login.php" class="page-scroll">ออกจากระบบ</a> </li>
 						</ul>
 					 </nav>
