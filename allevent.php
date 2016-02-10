@@ -34,9 +34,6 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
 		<style type="text/css">
 			.pagination {
 				margin-top: 4em;
