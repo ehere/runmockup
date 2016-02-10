@@ -65,8 +65,8 @@
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">หน้าหลัก </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
-							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการใบสมัคร</a> </li>
-							<li><a href="./myracehistory.php" class="page-scroll">รายการแจ้งโอนเงิน</a> </li>
+							<li><a href="./myracehistory.php" class="page-scroll">รายการใบสมัคร</a> </li>
+							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการแจ้งโอนเงิน</a> </li>
 							<li><a href="./login.php" class="page-scroll">ออกจากระบบ</a> </li>
 						</ul>
 					 </nav>
@@ -80,7 +80,7 @@
 				<div class="feature_header">
 					<div class="row">
 						<div class="col-md-12">
-							<h3 class="feature_title" style="margin:0;width:100%"><b>รายการใบสมัคร</b></h3>
+							<h3 class="feature_title" style="margin:0;width:100%"><b>รายการแจ้งโอนเงิน</b></h3>
 						</div>
 					</div>
 				</div>
@@ -95,14 +95,16 @@
 	<div class="row">
 		<div class="col-md-12 col-sm-12 col-xs-12">
 			<div class="panel panel-warning">
-				<div class="panel-heading">รายการใบสมัคร</div>
+				<div class="panel-heading">รายการแจ้งโอนเงิน</div>
 				<div class="panel-body">
 					<table class="table">
 						<thead>
 							<tr>
 								<th>หมายเลขใบสมัคร</th>
-								<th>ชื่องาน</th>
+								<th>บัญชี</th>
+								<th>จำนวนเงิน</th>
 								<th>ชื่อผู้ใช้</th>
+								<th>เวลาที่โอน</th>
 								<th>สถานะ</th>
 								<th></th>
 							</tr>
@@ -110,108 +112,132 @@
 						<tbody>
 							<tr>
 								<td><a href="./result-paid.php">11234</a></td>
-								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td>กสิกร 243-1-47586-4</td>
+								<td>2243.00</td>
 								<td>นายสมหมาย ทองดี</td>
-								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>2016-01-12</td>
+								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">10562</a></td>
-								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td><a href="./result-paid.php">11233</a></td>
+								<td>กสิกร 243-1-47586-4</td>
+								<td>1956.00</td>
 								<td>นายสมชาย ชาติไทย</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-12</td>
+								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
 								<td>
-									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">9643</a></td>
-								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td><a href="./result-paid.php">11232</a></td>
+								<td>กรุงไทย 478-1-62534-3</td>
+								<td>1230.00</td>
 								<td>นายทวี มีมาก</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-12</td>
+								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
 								<td>
-									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11235</a></td>
-								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td><a href="./result-paid.php">11231</a></td>
+								<td>ไทยพาณิชย์ 789-5-16352-3</td>
+								<td>560.00</td>
 								<td>นายสมนึก คึกคัก</td>
-								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>2016-01-11</td>
+								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">10563</a></td>
-								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td><a href="./result-paid.php">11230</a></td>
+								<td>ไทยพาณิชย์ 789-5-16352-3</td>
+								<td>1452.00</td>
 								<td>นางสมศรี สมรสาว</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-11</td>
+								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
 								<td>
-									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">9644</a></td>
-								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td><a href="./result-paid.php">11229</a></td>
+								<td>กสิกร 243-1-47586-4</td>
+								<td>520.00</td>
 								<td>นายทวัต ทวีโชค</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-10</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11236</a></td>
-								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td><a href="./result-paid.php">11228</a></td>
+								<td>กรุงไทย 478-1-62534-3</td>
+								<td>699.00</td>
 								<td>นายสมปอง สนองคุณ</td>
-								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>2016-01-09</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
-									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">10564</a></td>
-								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td><a href="./result-paid.php">11227</a></td>
+								<td>กรุงไทย 478-1-62534-3</td>
+								<td>1499.00</td>
 								<td>นางสาวสมหญิง จริงใจ</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-08</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">9645</a></td>
-								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td><a href="./result-paid.php">11226</a></td>
+								<td>กรุงเทพ 492-5-85263-8</td>
+								<td>999.00</td>
 								<td>นายสมชาติ มาดแมน</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-08</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11237</a></td>
-								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td><a href="./result-paid.php">11225</a></td>
+								<td>กสิกร 243-1-47586-4</td>
+								<td>1239.00</td>
 								<td>นายสมใจ ไพศาล</td>
-								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
-								<td>
-									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
-								</td>
-							</tr>
-							<tr>
-								<td><a href="./result-paid.php">10565</a></td>
-								<td><a href="./event.php">Phuket Marathon</a></td>
-								<td>นายสมศักดิ์ รักชาติ</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-07</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">9646</a></td>
-								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td><a href="./result-paid.php">11224</a></td>
+								<td>กรุงเทพ 492-5-85263-8</td>
+								<td>469.00</td>
+								<td>นายสมศักดิ์ รักชาติ</td>
+								<td>2016-01-07</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">11223</a></td>
+								<td>กรุงเทพ 492-5-85263-8</td>
+								<td>850.00</td>
 								<td>นางสาวสวย ล้นโลก</td>
-								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>2016-01-07</td>
+								<td><span class="label label-success">ยืนยันแล้ว</span></td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
