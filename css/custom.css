@@ -633,6 +633,7 @@ padding: 10px 15px;
 
 .single-portfolio:hover figcaption{
     opacity:1;
+    bottom: 0px;
     -webkit-transition: transform 0.35s ease 0s;
     -o-transition: transform 0.35s ease 0s;
     transition: transform 0.35s ease 0s;
@@ -647,7 +648,7 @@ padding: 10px 15px;
     opacity:.6;
 }
 .single-portfolio figcaption{
-    bottom: 0px;
+    bottom: 5em;
     height: 60%;
     width: 100%;
     color: #222;
@@ -660,7 +661,7 @@ padding: 10px 15px;
     -o-transform: translate3d(0px, 100%, 0px);
     transform: translate3d(0px, 100%, 0px);
     position: absolute;
-    opacity: 0;
+    opacity: 1;
 
 }
 
