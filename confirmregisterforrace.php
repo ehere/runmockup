@@ -63,6 +63,7 @@
 							<li><a href="./" class="page-scroll">Home </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
 							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
+							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
 							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
 						</ul>
 					 </nav>
@@ -76,21 +77,20 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="feature_header text-center">
-					<h4 class="feature_title"><b>สมัคร</b>เข้าร่วมกิจกรรม</h4>
-					<h3 class="feature_title">Ladkrabang Running 2016</h3>
+					<h4 class="feature_title"><b>ยืนยัน</b>การสมัคร</h4>
+					<h3 class="feature_sub">Ladkrabang Running 2016</h3>
 					<div class="divider"></div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-sm-12 col-xs-12">
-				<form class="form-horizontal" id="register-race" action="./confirmregisterforrace.php" method="post">
+				<form class="form-horizontal" id="register-race" action="./registerforraceresult.php" method="post">
 					<div class="form-group">
 						<label for="racedate" class="col-sm-2 control-label">วันที่แข่งขัน</label>
 						<div class="col-sm-10">
-							<select name="racedate" id="racedate" class="form-control">
-								<option value="" disabled selected>โปรดเลือกวันที่</option>
-								<option value="2016-06-04">4 มิถุนายน 2559</option>
+							<select name="racedate" id="racedate" class="form-control" disabled>
+								<option value="2016-06-04" selected>4 มิถุนายน 2559</option>
 								<option value="2016-06-05">5 มิถุนายน 2559</option>
 							</select>
 						</div>
@@ -98,12 +98,11 @@
 					<div class="form-group">
 						<label for="race" class="col-sm-2 control-label">ประเภทการแข่ง</label>
 						<div class="col-sm-10">
-							<select name="race" id="race" class="form-control">
-								<option value="" disabled selected>โปรดเลือกการแข่ง</option>
+							<select name="race" id="race" class="form-control" disabled>
 								<option value="rk2km">วิ่งยุวชน 2 กม.</option>
 								<option value="r10.5km">วิ่ง 10.5 กม.</option>
 								<option value="r5km">วิ่ง 5 กม.</option>
-								<option value="w5km">เดิน 5 กม.</option>
+								<option value="w5km" selected>เดิน 5 กม.</option>
 							</select>
 						</div>
 					</div>
@@ -116,12 +115,11 @@
 					<div class="form-group">
 						<label for="shirtsize" class="col-sm-2 control-label">ขนาดเสื้อ</label>
 						<div class="col-sm-10">
-							<select name="shirtsize" id="shirtsize" class="form-control">
-								<option value="" disabled selected>โปรดเลือกขนาดเสื้อ</option>
+							<select name="shirtsize" id="shirtsize" class="form-control" disabled>
 								<option value="s">S</option>
 								<option value="m">M</option>
 								<option value="l">L</option>
-								<option value="xl">XL</option>
+								<option value="xl" selected>XL</option>
 							</select>
 						</div>
 					</div>
@@ -132,54 +130,42 @@
 						<label for="item1" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</label>
 						<div class="col-sm-10">
 							<input name="item1price" value="950" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item1quantity" value="0" type="number" step="1" min="0" class="form-control">
+							<input name="item1quantity" value="1" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 					<div class="form-group form-inline">
 						<label for="item2" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(เด็ก)</label>
 						<div class="col-sm-10">
 							<input name="item2price" value="450" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item2quantity" value="0" type="number" step="1" min="0" class="form-control">
+							<input name="item2quantity" value="2" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 					<div class="form-group form-inline">
 						<label for="item3" class="col-sm-2 control-label">แพ็คเกจภาพถ่าย</label>
 						<div class="col-sm-10">
 							<input name="item3price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item3quantity" value="0" type="number" step="1" min="0" class="form-control">
+							<input name="item3quantity" value="0" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 					<div class="form-group form-inline">
 						<label for="item4" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันมาราธอน</label>
 						<div class="col-sm-10">
 							<input name="item4price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item4quantity" value="0" type="number" step="1" min="0" class="form-control">
+							<input name="item4quantity" value="0" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 					<div class="form-group form-inline">
 						<label for="item5" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันฮาล์ฟมาราธอน</label>
 						<div class="col-sm-10">
 							<input name="item5price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item5quantity" value="0" type="number" step="1" min="0" class="form-control">
+							<input name="item5quantity" value="0" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 					<div class="form-group form-inline">
 						<label for="item6" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันวิ่ง 10 กม.</label>
 						<div class="col-sm-10">
 							<input name="item6price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item6quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-
-					<div class="divider"></div>
-
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<div class="checkbox">
-								<label>
-									<input type="checkbox"> ข้าพเจ้าขอยืนยันว่าข้าพเจ้ามีสุขภาพสมบูรณ์แข็งแรงและพร้อมที่จะทำการแข่งขัน ข้าพเจ้ายอมรับว่าการลงทะเบียนเข้าร่วมแข่งขัน เป็นความยินยอมและเป็นความเสี่ยงของข้าพเจ้าเอง และคณะกรรมการผู้จัดงาน ไม่ต้องรับผิดชอบในกรณี บาดเจ็บ เจ็บป่วยหรือสูญเสีย ทรัพย์สิน ที่เกิดระหว่างการแข่งขัน หรืออันเป็นผลเนื่องมาจากการแข่งขัน และข้าพเจ้าได้อ่าน และทำความเข้าใจกฎ กติกา และข้อ บังคับเกี่ยวกับการแข่งขัน เรียบร้อยแล้ว
-								</label>
-							</div>
+							<input name="item6quantity" value="0" type="number" step="1" min="0" class="form-control" disabled>
 						</div>
 					</div>
 				</form>
@@ -219,7 +205,7 @@
 			</div>
 		</div>
 		<div class="text-center">
-			<button class="btn btn-main featured" onclick="submitForm()">สมัครแข่งขัน</button>
+			<button class="btn btn-main featured" onclick="submitForm()">ยืนยัน</button>
 		</div>
 		<script type="text/javascript">
 			function submitForm(){
