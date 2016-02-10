@@ -58,11 +58,10 @@
 				 </div><!--Navbar header End-->
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
-							<li><a href="./" class="page-scroll">Home </a></li>
-							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
+							<li><a href="./" class="page-scroll">หน้าหลัก </a></li>
+							<li><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
 							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
-							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
+							<li><a href="./login.php" class="page-scroll">ออกจากระบบ</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
@@ -77,7 +76,7 @@
 				<div class="feature_header text-center">
 					<h3 class="feature_title">ใบสมัครเลขที่ <b>1120345</b></h3>
 					<h4 class="feature_sub"><a href="./event.php">LADKRABANG RUNNING 2016</a></h4>
-					<h4 class="feature_sub">ยินดีด้วยเราได้ยืนยันการชำระเงินแล้ว</h4>
+					<h4 class="feature_sub">ยินดีด้วยเราได้ยืนยันการชำระเงินแล้ว <a href="#"><b>พิมพ์ใบสมัคร <i class="fa fa-print"></i></b></a></h4>
 					<div class="divider"></div>
 				</div>
 			</div>  <!-- Col-md-12 End -->

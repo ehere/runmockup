@@ -63,10 +63,10 @@
 				 </div><!--Navbar header End-->
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
-							<li> <a href="./" class="page-scroll">Home </a></li>
-							<li class="active"><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li><a href="./register.php" class="page-scroll">Register</a> </li>
-							<li><a href="./login.php" class="page-scroll">Login</a> </li>
+							<li> <a href="./" class="page-scroll">หน้าหลัก </a></li>
+							<li class="active"><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
+							<li><a href="./register.php" class="page-scroll">สมัครสมาชิก</a> </li>
+							<li><a href="./login.php" class="page-scroll">เข้าสู่ระบบ</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
@@ -234,18 +234,18 @@
 			</ul>
 			<div class="row pagination">
 				<div class="col-xs-5">
-					<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> Back</a>
+					<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> ก่อนหน้า</a>
 				</div>
 				<div class="col-xs-2">
 					<div class="input-group">
 						<input type="number" class="form-control" placeholder="Jump to" min="1">
 						<span class="input-group-btn">
-							<button class="btn btn-default" type="button">Go!</button>
+							<button class="btn btn-default" type="button">ไป!</button>
 						</span>
 					</div><!-- /input-group -->
 				</div>
 				<div class="col-xs-5">
-					<a href="#" class="btn btn-lg btn-default pull-left">Next <i class="fa fa-chevron-right"></i></a>
+					<a href="#" class="btn btn-lg btn-default pull-left">ถัดไป <i class="fa fa-chevron-right"></i></a>
 				</div>			
 			</div>
 		</div> <!-- Container Full End -->

@@ -77,7 +77,7 @@
 				<div class="feature_header">
 					<div class="row">
 						<div class="col-md-7">
-							<h3 class="feature_title" style="margin:0;width:100%"><b>ประวัติการสมัคร</b></h3>
+							<h3 class="feature_title" style="margin:0;width:100%"><b>รายการแข่งที่สมัคร</b></h3>
 						</div>
 						<div class="col-md-5">
 							<div class="input-group">
@@ -140,18 +140,18 @@
 	</div>
 	<div class="row pagination">
 		<div class="col-xs-5">
-			<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> Back</a>
+			<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> ก่อนหน้า</a>
 		</div>
 		<div class="col-xs-2">
 			<div class="input-group">
 				<input type="number" class="form-control" placeholder="Jump to" min="1">
 				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">Go!</button>
+					<button class="btn btn-default" type="button">ไป !</button>
 				</span>
 			</div><!-- /input-group -->
 		</div>
 		<div class="col-xs-5">
-			<a href="#" class="btn btn-lg btn-default pull-left">Next <i class="fa fa-chevron-right"></i></a>
+			<a href="#" class="btn btn-lg btn-default pull-left">ถัดไป <i class="fa fa-chevron-right"></i></a>
 		</div>			
 	</div>
 </div>

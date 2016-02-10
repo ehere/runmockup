@@ -57,10 +57,10 @@
 				 </div><!--Navbar header End-->
 					<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
 						<ul class="nav navbar-nav navbar-right ">
-							<li class="active"> <a href="./">Home </a></li>
-							<li><a href="./allevent.php">All Events</a> </li>
-							<li><a href="./register.php">Register</a> </li>
-							<li><a href="./login.php" class="page-scroll">Login</a> </li>
+							<li class="active"> <a href="./">หน้าหลัก</a></li>
+							<li><a href="./allevent.php">อีเว้นท์ทั้งหมด</a> </li>
+							<li><a href="./register.php">สมัครสมาชิก</a> </li>
+							<li><a href="./login.php" class="page-scroll">เข้าสู่ระบบ</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
@@ -84,8 +84,8 @@
 						<div class="col-md-12 col-xs-12 text-center">
 							<h3 class="animated2"> <b>Phuket Marathon</b> </h3>
 							<div class="line"></div>
-							<p class="animated3">31 JAN 2016</p>
-							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
+							<p class="animated3">31 มิถุนายน 2016</p>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">More Info</a>
 						</div>
 					</div>
 				</div>
@@ -97,8 +97,8 @@
 						<div class="col-md-12 col-xs-12 text-center">
 							<h3 class="animated3"><b>Tri Dash Bangkok 2016</b></h3>
 							<div class="line"></div>
-							<p class="animated3">14 FEB 2016</p>
-							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
+							<p class="animated3">14 กุมภาพันธ์ 2016</p>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">More Info</a>
 						</div>
 					</div>
 				</div>
@@ -110,8 +110,8 @@
 						<div class="col-md-12 col-xs-12 text-center">
 							<h3 class="animated3"><b>Run Run Run 2016</b></h3>
 							<div class="line"></div>
-							<p class="animated3">21 JUN 2016</p>
-							<a href="./event.php" class="btn btn-danger btn-lg animated3">Register</a>
+							<p class="animated3">21 มิถุนายน 2016</p>
+							<a href="./event.php" class="btn btn-danger btn-lg animated3">More Info</a>
 						</div>
 					</div>
 				</div>
@@ -160,7 +160,7 @@
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="feature_header text-center">
-						<h3 class="feature_title">งานที่จะถึง<b>เร็วๆนี้</b></h3>
+						<h3 class="feature_title">อีเว้นท์ที่จะถึง<b>เร็วๆ นี้</b></h3>
 						<h4 class="feature_sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
 						<div class="divider"></div>
 					</div>
@@ -315,7 +315,7 @@
 </section>  <!-- Portfolio Section End -->
 
 
-<!-- Counter End -->
+<!-- 
 <div class="clearfix"></div>
 <section id="video-fact">
 	<div class="container">
@@ -323,7 +323,6 @@
 				 <div class="col-md-6 ">
 					<div class="landing-video">
 						<div class="video-embed wow fadeIn" data-wow-duration="1s">
-								<!-- Change the url -->
 							<iframe src="http://player.vimeo.com/video/95864492?title=0&amp;byline=0&amp;portrait=0&amp;color=8aba56" width="350" height="281" allowfullscreen></iframe>
 						</div>
 					</div>
@@ -376,9 +375,10 @@
 					</div>
 				</div>
 			</div> 
-		</div><!-- row End -->
+		</div>
 	</div>
 </section>
+-->
 
 <div class="clearfix"></div>
 
@@ -525,7 +525,7 @@
 							<span class="counter">87</span>
 						</div>
 					</div>
-						<h6>Clients</h6>
+						<h6>อีเว้นท์</h6>
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12 col-sm-6 columns">
@@ -544,7 +544,7 @@
 						<i class="fa fa-gift fa-3x fw"></i>
 						<div class="facts-wrap-num"><span class="counter">25</span></div>
 					 </div>
-						<h6>Awards</h6>
+						<h6>ผู้จัด</h6>
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12 col-sm-6 columns">
@@ -563,7 +563,7 @@
 						<i class="fa fa-check-square-o fa-3x fw"></i>
 						<div class="facts-wrap-num"><span class="counter">68</span></div>
 						</div>
-						<h6>Projects</h6>
+						<h6>สมาชิก</h6>
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12 col-sm-6 columns">
@@ -580,9 +580,9 @@
 							</div>
 						</div>
 						<i class="fa fa-envelope-o fa-3x fw"></i>
-						<div class="facts-wrap-num"><span class="counter">46</span></div>
+						<div class="facts-wrap-num"><span>1.6K</span></div>
 						</div>
-						<h6>Mails</h6>
+						<h6>ใบสมัคร</h6>
 					</div>
 				</div>
 			</div> <!-- Conatainer End -->
@@ -593,54 +593,6 @@
 
 
 <div class="clearfix"></div>
-
-<!-- Conatct Area Start-->
-
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="feature_header text-center">
-					<h3 class="feature_title">Keep In <b>touch</b></h3>
-					<h4 class="feature_sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
-					<div class="divider"></div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			 <div class="contact_full">
-				<div class="col-md-6 left">
-					<div class="left_contact">
-						<form action="role">
-							<div class="form-level">
-								<input name="name" placeholder="Name" id="name"  value="" type="text" class="input-block">
-								<span class="form-icon fa fa-user"></span>
-							</div>
-							<div class="form-level">
-								<input name="email" placeholder="Email" id="mail" class="input-block" value="" type="email">
-								<span class="form-icon fa fa-envelope-o"></span>
-							</div>
-							<div class="form-level">
-								<input name="name" placeholder="Phone" id="phone" class="input-block" value="" type="text">
-								<span class="form-icon fa fa-phone"></span>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<div class="col-md-6 right">
-					<div class="form-level">
-						<textarea name="" id="messege"  rows="5" class="textarea-block" placeholder="message"></textarea>
-						<span class="form-icon fa fa-pencil"></span>
-					</div>
-				</div>
-				<div class="col-md-12 text-center">
-					<button class="btn btn-main featured">Submit Now</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 
 <!-- Footer Area Start -->
