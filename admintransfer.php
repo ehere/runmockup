@@ -35,7 +35,7 @@
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
-  		<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
 		<style type="text/css">
 			body{background-color: #e5e5e5;}
@@ -103,9 +103,9 @@
 								<th>หมายเลขใบสมัคร</th>
 								<th>บัญชี</th>
 								<th>จำนวนเงิน</th>
-								<th>ชื่อผู้ใช้</th>
 								<th>เวลาที่โอน</th>
 								<th>สถานะ</th>
+								<th>สลิป</th>
 								<th></th>
 							</tr>
 						</thead>
@@ -114,9 +114,13 @@
 								<td><a href="./result-paid.php">11234</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>2243.00</td>
-								<td>นายสมหมาย ทองดี</td>
-								<td>2016-01-12</td>
+								<td>2016-01-12 11:12:13</td>
 								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
@@ -125,9 +129,13 @@
 								<td><a href="./result-paid.php">11233</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>1956.00</td>
-								<td>นายสมชาย ชาติไทย</td>
-								<td>2016-01-12</td>
+								<td>2016-01-12 10:10:09</td>
 								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
@@ -136,9 +144,13 @@
 								<td><a href="./result-paid.php">11232</a></td>
 								<td>กรุงไทย 478-1-62534-3</td>
 								<td>1230.00</td>
-								<td>นายทวี มีมาก</td>
-								<td>2016-01-12</td>
+								<td>2016-01-12 16:40:10</td>
 								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
@@ -147,9 +159,13 @@
 								<td><a href="./result-paid.php">11231</a></td>
 								<td>ไทยพาณิชย์ 789-5-16352-3</td>
 								<td>560.00</td>
-								<td>นายสมนึก คึกคัก</td>
-								<td>2016-01-11</td>
+								<td>2016-01-11 13:52:15</td>
 								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
@@ -158,9 +174,13 @@
 								<td><a href="./result-paid.php">11230</a></td>
 								<td>ไทยพาณิชย์ 789-5-16352-3</td>
 								<td>1452.00</td>
-								<td>นางสมศรี สมรสาว</td>
-								<td>2016-01-11</td>
+								<td>2016-01-11 13:02:59</td>
 								<td><span class="label label-danger">ยังไม่ยืนยัน</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
 								</td>
@@ -169,9 +189,13 @@
 								<td><a href="./result-paid.php">11229</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>520.00</td>
-								<td>นายทวัต ทวีโชค</td>
-								<td>2016-01-10</td>
+								<td>2016-01-10 12:43:23</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -180,9 +204,13 @@
 								<td><a href="./result-paid.php">11228</a></td>
 								<td>กรุงไทย 478-1-62534-3</td>
 								<td>699.00</td>
-								<td>นายสมปอง สนองคุณ</td>
-								<td>2016-01-09</td>
+								<td>2016-01-09 22:41:03</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -191,9 +219,13 @@
 								<td><a href="./result-paid.php">11227</a></td>
 								<td>กรุงไทย 478-1-62534-3</td>
 								<td>1499.00</td>
-								<td>นางสาวสมหญิง จริงใจ</td>
-								<td>2016-01-08</td>
+								<td>2016-01-08 21:30:30</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -202,9 +234,13 @@
 								<td><a href="./result-paid.php">11226</a></td>
 								<td>กรุงเทพ 492-5-85263-8</td>
 								<td>999.00</td>
-								<td>นายสมชาติ มาดแมน</td>
-								<td>2016-01-08</td>
+								<td>2016-01-08 09:12:59</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -213,9 +249,13 @@
 								<td><a href="./result-paid.php">11225</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>1239.00</td>
-								<td>นายสมใจ ไพศาล</td>
-								<td>2016-01-07</td>
+								<td>2016-01-07 11:23:22</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -224,9 +264,13 @@
 								<td><a href="./result-paid.php">11224</a></td>
 								<td>กรุงเทพ 492-5-85263-8</td>
 								<td>469.00</td>
-								<td>นายสมศักดิ์ รักชาติ</td>
-								<td>2016-01-07</td>
+								<td>2016-01-07 12:20:34</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -235,9 +279,13 @@
 								<td><a href="./result-paid.php">11223</a></td>
 								<td>กรุงเทพ 492-5-85263-8</td>
 								<td>850.00</td>
-								<td>นางสาวสวย ล้นโลก</td>
-								<td>2016-01-07</td>
+								<td>2016-01-07 16:48:23</td>
 								<td><span class="label label-success">ยืนยันแล้ว</span></td>
+								<td>
+									<button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+										<i class="fa fa-desktop"></i></a>
+									</button>
+								</td>
 								<td>
 									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
 								</td>
@@ -352,7 +400,23 @@
 	</div>
 	<!-- End Back To Top Button -->
 
-
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			</div>
+			<div class="modal-body">
+				<img src="http://www.weloveshopping.com/shop/client/000041/varietyintrend/webboard/q856854222081.jpg" style="width:100%">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- Javascript Files
 	================================================== -->
@@ -396,7 +460,7 @@
 					"order": [[ 0, "desc" ]]
 				});
 			});
-		    
+				
 		} );
 		</script>
  
