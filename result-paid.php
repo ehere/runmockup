@@ -34,8 +34,6 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
 		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
@@ -70,167 +68,72 @@
 				</div><!-- /.container-fluid -->
 </header>
 
-<!-- Conatct Area Start-->
+<!-- Testimonial Start -->
 
-<section id="contact">
+<section id="testimonial" class="wow fadeInUp">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="feature_header text-center">
-					<h4 class="feature_title"><b>สมัคร</b>เข้าร่วมกิจกรรม</h4>
-					<h3 class="feature_title">Ladkrabang Running 2016</h3>
+					<h3 class="feature_title">ใบสมัครเลขที่ <b>1120345</b></h3>
+					<h4 class="feature_sub">ยินดีด้วยเราได้ยืนยันการชำระเงินแล้ว</h4>
 					<div class="divider"></div>
 				</div>
-			</div>
+			</div>  <!-- Col-md-12 End -->
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-sm-12 col-xs-12">
-				<form class="form-horizontal" id="register-race" action="./confirmregisterforrace.php" method="post">
-					<div class="form-group">
-						<label for="racedate" class="col-sm-2 control-label">วันที่แข่งขัน</label>
-						<div class="col-sm-10">
-							<select name="racedate" id="racedate" class="form-control">
-								<option value="" disabled selected>โปรดเลือกวันที่</option>
-								<option value="2016-06-04">4 มิถุนายน 2559</option>
-								<option value="2016-06-05">5 มิถุนายน 2559</option>
-							</select>
-						</div>
+			<div class="owl-carousel owl-theme text-center testimonial-slide">
+				<div class="item">
+					<div class="testimonial-thumb">
+						<img class="img-circle" src="images/team/pic1.jpg" alt="testimonial" > 
 					</div>
-					<div class="form-group">
-						<label for="race" class="col-sm-2 control-label">ประเภทการแข่ง</label>
-						<div class="col-sm-10">
-							<select name="race" id="race" class="form-control">
-								<option value="" disabled selected>โปรดเลือกการแข่ง</option>
-								<option value="rk2km">วิ่งยุวชน 2 กม.</option>
-								<option value="r10.5km">วิ่ง 10.5 กม.</option>
-								<option value="r5km">วิ่ง 5 กม.</option>
-								<option value="w5km">เดิน 5 กม.</option>
-							</select>
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="agegroup" class="col-sm-2 control-label">กลุ่มอายุ</label>
-						<div class="col-sm-10">
-							ทั่วไป
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="shirtsize" class="col-sm-2 control-label">ขนาดเสื้อ</label>
-						<div class="col-sm-10">
-							<select name="shirtsize" id="shirtsize" class="form-control">
-								<option value="" disabled selected>โปรดเลือกขนาดเสื้อ</option>
-								<option value="s">S</option>
-								<option value="m">M</option>
-								<option value="l">L</option>
-								<option value="xl">XL</option>
-							</select>
-						</div>
-					</div>
-
-					<div class="divider"></div>
-
-					<div class="form-group form-inline">
-						<label for="item1" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</label>
-						<div class="col-sm-10">
-							<input name="item1price" value="950" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item1quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-					<div class="form-group form-inline">
-						<label for="item2" class="col-sm-2 control-label">บัตรงานเลี้ยงพาสต้า(เด็ก)</label>
-						<div class="col-sm-10">
-							<input name="item2price" value="450" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item2quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-					<div class="form-group form-inline">
-						<label for="item3" class="col-sm-2 control-label">แพ็คเกจภาพถ่าย</label>
-						<div class="col-sm-10">
-							<input name="item3price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item3quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-					<div class="form-group form-inline">
-						<label for="item4" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันมาราธอน</label>
-						<div class="col-sm-10">
-							<input name="item4price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item4quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-					<div class="form-group form-inline">
-						<label for="item5" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันฮาล์ฟมาราธอน</label>
-						<div class="col-sm-10">
-							<input name="item5price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item5quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-					<div class="form-group form-inline">
-						<label for="item6" class="col-sm-2 control-label">แบบฝึกฝนเพื่อแข่งขันวิ่ง 10 กม.</label>
-						<div class="col-sm-10">
-							<input name="item6price" value="1990" type="number" step="0.01" class="form-control" disabled=""> X
-							<input name="item6quantity" value="0" type="number" step="1" min="0" class="form-control">
-						</div>
-					</div>
-
-					<div class="divider"></div>
-
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<div class="checkbox">
-								<label>
-									<input type="checkbox"> ข้าพเจ้าขอยืนยันว่าข้าพเจ้ามีสุขภาพสมบูรณ์แข็งแรงและพร้อมที่จะทำการแข่งขัน ข้าพเจ้ายอมรับว่าการลงทะเบียนเข้าร่วมแข่งขัน เป็นความยินยอมและเป็นความเสี่ยงของข้าพเจ้าเอง และคณะกรรมการผู้จัดงาน ไม่ต้องรับผิดชอบในกรณี บาดเจ็บ เจ็บป่วยหรือสูญเสีย ทรัพย์สิน ที่เกิดระหว่างการแข่งขัน หรืออันเป็นผลเนื่องมาจากการแข่งขัน และข้าพเจ้าได้อ่าน และทำความเข้าใจกฎ กติกา และข้อ บังคับเกี่ยวกับการแข่งขัน เรียบร้อยแล้ว
-								</label>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-			<div class="col-md-4 col-sm-12 col-xs-12">
-				<div class="panel panel-warning">
-					<div class="panel-heading">รวมยอดเงิน</div>
-					<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
-						<table class="table">
-						<tr>
-							<th>รายการ</th>
-							<th>จำนวน</th>
-							<th>ราคา</th>
-						</tr>
-						<tr>
-							<td>เดิน 5 กม.</td>
-							<td>1</td>
-							<td>350</td>
-						</tr>
-						<tr>
-							<td>บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</td>
-							<td>1</td>
-							<td>950</td>
-						</tr>
-						<tr>
-							<td>บัตรงานเลี้ยงพาสต้า(เด็ก)</td>
-							<td>2</td>
-							<td>900</td>
-						</tr>
-						<tr>
-							<th colspan="2">รวม</th>
-							<th>2200</th>
-						</tr>
-						</table>
+					<div class="testimonial-content">
+						<h3 class="name">หมายเลขวิ่งของคุณคือ</h3>
+						<p class="testimonial-text" style="font-size:3em;">
+							1199
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="text-center">
-			<button class="btn btn-main featured" onclick="submitForm()">สมัครแข่งขัน</button>
+		<br>
+		<div class="panel panel-warning">
+			<div class="panel-heading">รายละเอียดใบสมัคร</div>
+			<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
+				<table class="table">
+				<tr>
+					<th>รายการ</th>
+					<th>จำนวน</th>
+					<th>ราคา</th>
+				</tr>
+				<tr>
+					<td>เดิน 5 กม.</td>
+					<td>1</td>
+					<td>350</td>
+				</tr>
+				<tr>
+					<td>บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</td>
+					<td>1</td>
+					<td>950</td>
+				</tr>
+				<tr>
+					<td>บัตรงานเลี้ยงพาสต้า(เด็ก)</td>
+					<td>2</td>
+					<td>900</td>
+				</tr>
+				<tr>
+					<th colspan="2">รวม</th>
+					<th>2200</th>
+				</tr>
+				</table>
+			</div>
 		</div>
-		<script type="text/javascript">
-			function submitForm(){
-				jQuery(function($) { // DOM is now read and ready to be manipulated
-					$('#register-race').submit();
-				});
-			}
-		</script>
 	</div>
-</section>
+
+
+</section> <!-- Section Testimonial End -->
+
+<!-- Testimonial Area End -->
 
 
 <!-- Footer Area Start -->

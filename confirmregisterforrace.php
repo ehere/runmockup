@@ -85,7 +85,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-sm-12 col-xs-12">
-				<form class="form-horizontal" id="register-race" action="./registerforraceresult.php" method="post">
+				<form class="form-horizontal" id="register-race" action="./result-notpaid.php" method="post">
 					<div class="form-group">
 						<label for="racedate" class="col-sm-2 control-label">วันที่แข่งขัน</label>
 						<div class="col-sm-10">
