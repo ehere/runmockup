@@ -63,6 +63,7 @@
 							<li><a href="./" class="page-scroll">Home </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
 							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
+							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
 							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
 						</ul>
 					 </nav>

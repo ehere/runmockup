@@ -19,7 +19,7 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
 		<!-- Animation -->
 		<link rel="stylesheet" href="css/animate.css" />
 		<!-- Owl Carousel -->
@@ -34,7 +34,9 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<style type="text/css">
+			body{background-color: #e5e5e5;}
+		</style>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -61,87 +63,102 @@
 							<li><a href="./" class="page-scroll">Home </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
 							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
-							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
+							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
 							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
 </header>
-
-<!-- Testimonial Start -->
-
-<section id="testimonial" class="wow fadeInUp">
+<!-- Event Title Start -->
+<section id="event-title" style="padding-top:100px;padding-bottom:14px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="feature_header text-center">
-					<h3 class="feature_title">ใบสมัครเลขที่ <b>1120345</b></h3>
-					<h4 class="feature_sub"><a href="./event.php">LADKRABANG RUNNING 2016</a></h4>
-					<h4 class="feature_sub">ยินดีด้วยคุณสมัครเรียบร้อยแล้ว ขั้นตอนต่อไปคือโอนเงินและทำการแจ้งโอน</h4>
-					<div class="divider"></div>
+				<div class="feature_header">
+					<div class="row">
+						<div class="col-md-7">
+							<h3 class="feature_title" style="margin:0;width:100%"><b>ประวัติการสมัคร</b></h3>
+						</div>
+						<div class="col-md-5">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="ใส่คำค้น">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">Search</button>
+								</span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>  <!-- Col-md-12 End -->
-		</div>
-		<div class="row">
-			<div class="owl-carousel owl-theme text-center testimonial-slide">
-				<div class="item">
-					<div class="testimonial-thumb">
-						<img class="img-circle" src="images/testimonial2.png" alt="testimonial" > 
-					</div>
-					<div class="testimonial-content">
-						<h3 class="name">คุณยังไม่ได้รับหมายเลขวิ่ง <span>โปรดทำการชำระเงินก่อน</span></h3>
-						<p class="testimonial-text">
-							หลังยืนยันชำระเงินเล้วหมายเลขวิ่งของคุณจะแสดงที่นี่
-						</p>
-					</div>
+		</div>	
+	</div>
+</section>
+<!-- Event Title end -->
+
+<section id="event-detail">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="panel panel-warning">
+				<div class="panel-heading">รายการใบสมัคร</div>
+				<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
+					<table class="table">
+						<tr>
+							<th>หมายเลขใบสมัคร</th>
+							<th>ชื่องาน</th>
+							<th>สถานะ</th>
+							<th></th>
+						</tr>
+						<tr>
+							<td><a href="./result-paid.php">11234</a></td>
+							<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+							<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+							<td>
+								<a href="./result-notpaid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="./result-paid.php">10562</a></td>
+							<td><a href="./event.php">Phuket Marathon</a></td>
+							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+							<td>
+								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="./result-paid.php">9643</a></td>
+							<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+							<td>
+								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i></a>
+							</td>
+						</tr>
+					</table>
 				</div>
-			</div>
-		</div>
-		<br>
-		<div class="panel panel-warning">
-			<div class="panel-heading">รายละเอียดใบสมัคร</div>
-			<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
-				<br>
-				วันที่วิ่ง <b>4 มิถุนายน 2559</b>
-				<br><br>
-				<table class="table">
-				<tr>
-					<th>รายการ</th>
-					<th>จำนวน</th>
-					<th>ราคา</th>
-				</tr>
-				<tr>
-					<td>เดิน 5 กม.</td>
-					<td>1</td>
-					<td>350</td>
-				</tr>
-				<tr>
-					<td>บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</td>
-					<td>1</td>
-					<td>950</td>
-				</tr>
-				<tr>
-					<td>บัตรงานเลี้ยงพาสต้า(เด็ก)</td>
-					<td>2</td>
-					<td>900</td>
-				</tr>
-				<tr>
-					<th colspan="2">รวม</th>
-					<th>2200</th>
-				</tr>
-				</table>
 			</div>
 		</div>
 	</div>
-
-
-</section> <!-- Section Testimonial End -->
-
-<!-- Testimonial Area End -->
-
+	<div class="row pagination">
+		<div class="col-xs-5">
+			<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> Back</a>
+		</div>
+		<div class="col-xs-2">
+			<div class="input-group">
+				<input type="number" class="form-control" placeholder="Jump to" min="1">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button">Go!</button>
+				</span>
+			</div><!-- /input-group -->
+		</div>
+		<div class="col-xs-5">
+			<a href="#" class="btn btn-lg btn-default pull-left">Next <i class="fa fa-chevron-right"></i></a>
+		</div>			
+	</div>
+</div>
+</section>
+<!-- Event Detail end -->
 
 <!-- Footer Area Start -->
-
 <section id="footer">
 	<div class="footer_top">
 		<div class="container">
@@ -249,9 +266,9 @@
 
 		<!-- initialize jQuery Library -->
 		<!-- Main jquery -->
-		
+			<script type="text/javascript" src="js/jquery.js"></script>
 		<!-- Bootstrap jQuery -->
-		<script src="js/bootstrap.min.js"></script>
+		 <script src="js/bootstrap.min.js"></script>
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
@@ -259,7 +276,7 @@
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 		<!-- SmoothScroll -->
 		<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<!-- Image Fancybox -->
@@ -278,9 +295,32 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
+		<!-- Google Map  Source -->
+		<script type="text/javascript" src="js/gmaps.js"></script>
 			 <!-- Custom js -->
 		<script src="js/custom.js"></script>
+		 <script>
+		// Google Map - with support of gmaps.js
+	 var map;
+		map = new GMaps({
+		  div: '#map',
+		  lat: 23.709921,
+		  lng: 90.407143,
+		  scrollwheel: false,
+		  panControl: false,
+		  zoomControl: false,
+		});
 
+		map.addMarker({
+		  lat: 23.709921,
+		  lng: 90.407143,
+		  title: 'Smilebuddy',
+		  infoWindow: { 
+			content: '<p> Smilebuddy, Dhanmondhi 27</p>'
+		  },
+		  icon: "images/map1.png"
+		});
+		</script>
  
 	</body>
 </html>

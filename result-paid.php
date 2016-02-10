@@ -76,6 +76,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="feature_header text-center">
 					<h3 class="feature_title">ใบสมัครเลขที่ <b>1120345</b></h3>
+					<h4 class="feature_sub"><a href="./event.php">LADKRABANG RUNNING 2016</a></h4>
 					<h4 class="feature_sub">ยินดีด้วยเราได้ยืนยันการชำระเงินแล้ว</h4>
 					<div class="divider"></div>
 				</div>
@@ -100,6 +101,9 @@
 		<div class="panel panel-warning">
 			<div class="panel-heading">รายละเอียดใบสมัคร</div>
 			<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
+				<br>
+				วันที่วิ่ง <b>4 มิถุนายน 2559</b>
+				<br><br>
 				<table class="table">
 				<tr>
 					<th>รายการ</th>

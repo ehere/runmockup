@@ -19,7 +19,7 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css"/>
 		<!-- Animation -->
 		<link rel="stylesheet" href="css/animate.css" />
 		<!-- Owl Carousel -->
@@ -34,7 +34,12 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
+  		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+		<style type="text/css">
+			body{background-color: #e5e5e5;}
+		</style>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -60,88 +65,168 @@
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">Home </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">All Events</a> </li>
-							<li><a href="./profile.php" class="page-scroll">สวัสดี สมชาย</a> </li>
-							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
+							<li><a href="./profile.php" class="page-scroll">สวัสดี Admin</a> </li>
+							<li class="active"><a href="./myracehistory.php" class="page-scroll">ใบสมัครในระบบ</a> </li>
 							<li><a href="./login.php" class="page-scroll">Logout</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
 </header>
-
-<!-- Testimonial Start -->
-
-<section id="testimonial" class="wow fadeInUp">
+<!-- Event Title Start -->
+<section id="event-title" style="padding-top:100px;padding-bottom:14px;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="feature_header text-center">
-					<h3 class="feature_title">ใบสมัครเลขที่ <b>1120345</b></h3>
-					<h4 class="feature_sub"><a href="./event.php">LADKRABANG RUNNING 2016</a></h4>
-					<h4 class="feature_sub">ยินดีด้วยคุณสมัครเรียบร้อยแล้ว ขั้นตอนต่อไปคือโอนเงินและทำการแจ้งโอน</h4>
-					<div class="divider"></div>
+				<div class="feature_header">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="feature_title" style="margin:0;width:100%"><b>ใบสมัครในระบบ</b></h3>
+						</div>
+					</div>
 				</div>
 			</div>  <!-- Col-md-12 End -->
-		</div>
-		<div class="row">
-			<div class="owl-carousel owl-theme text-center testimonial-slide">
-				<div class="item">
-					<div class="testimonial-thumb">
-						<img class="img-circle" src="images/testimonial2.png" alt="testimonial" > 
-					</div>
-					<div class="testimonial-content">
-						<h3 class="name">คุณยังไม่ได้รับหมายเลขวิ่ง <span>โปรดทำการชำระเงินก่อน</span></h3>
-						<p class="testimonial-text">
-							หลังยืนยันชำระเงินเล้วหมายเลขวิ่งของคุณจะแสดงที่นี่
-						</p>
-					</div>
+		</div>	
+	</div>
+</section>
+<!-- Event Title end -->
+
+<section id="event-detail">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="panel panel-warning">
+				<div class="panel-heading">รายการใบสมัคร</div>
+				<div class="panel-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>หมายเลขใบสมัคร</th>
+								<th>ชื่องาน</th>
+								<th>ชื่อผู้ใช้</th>
+								<th>สถานะ</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="./result-paid.php">11234</a></td>
+								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td>นายสมหมาย ทองดี</td>
+								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">10562</a></td>
+								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td>นายสมชาย ชาติไทย</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">9643</a></td>
+								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td>นายทวี มีมาก</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">11235</a></td>
+								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td>นายสมนึก คึกคัก</td>
+								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">10563</a></td>
+								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td>นางสมศรี สมรสาว</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">9644</a></td>
+								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td>นายทวัต ทวีโชค</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">11236</a></td>
+								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td>นายสมปอง สนองคุณ</td>
+								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">10564</a></td>
+								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td>นางสาวสมหญิง จริงใจ</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">9645</a></td>
+								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td>นายสมชาติ มาดแมน</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">11237</a></td>
+								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
+								<td>นายสมใจ ไพศาล</td>
+								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-up"></i> Mask as Paid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">10565</a></td>
+								<td><a href="./event.php">Phuket Marathon</a></td>
+								<td>นายสมศักดิ์ รักชาติ</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="./result-paid.php">9646</a></td>
+								<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
+								<td>นางสาวสวย ล้นโลก</td>
+								<td><span class="label label-success">ชำระเงินแล้ว</span></td>
+								<td>
+									<a href="#" class="btn btn-default"><i class="fa fa-level-down"></i> Mask as Unpaid</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-			</div>
-		</div>
-		<br>
-		<div class="panel panel-warning">
-			<div class="panel-heading">รายละเอียดใบสมัคร</div>
-			<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
-				<br>
-				วันที่วิ่ง <b>4 มิถุนายน 2559</b>
-				<br><br>
-				<table class="table">
-				<tr>
-					<th>รายการ</th>
-					<th>จำนวน</th>
-					<th>ราคา</th>
-				</tr>
-				<tr>
-					<td>เดิน 5 กม.</td>
-					<td>1</td>
-					<td>350</td>
-				</tr>
-				<tr>
-					<td>บัตรงานเลี้ยงพาสต้า(ผู้ใหญ่)</td>
-					<td>1</td>
-					<td>950</td>
-				</tr>
-				<tr>
-					<td>บัตรงานเลี้ยงพาสต้า(เด็ก)</td>
-					<td>2</td>
-					<td>900</td>
-				</tr>
-				<tr>
-					<th colspan="2">รวม</th>
-					<th>2200</th>
-				</tr>
-				</table>
 			</div>
 		</div>
 	</div>
-
-
-</section> <!-- Section Testimonial End -->
-
-<!-- Testimonial Area End -->
-
+</div>
+</section>
+<!-- Event Detail end -->
 
 <!-- Footer Area Start -->
-
 <section id="footer">
 	<div class="footer_top">
 		<div class="container">
@@ -249,9 +334,9 @@
 
 		<!-- initialize jQuery Library -->
 		<!-- Main jquery -->
-		
+			
 		<!-- Bootstrap jQuery -->
-		<script src="js/bootstrap.min.js"></script>
+		 <script src="js/bootstrap.min.js"></script>
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
@@ -259,7 +344,7 @@
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 		<!-- SmoothScroll -->
 		<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<!-- Image Fancybox -->
@@ -278,9 +363,16 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
-			 <!-- Custom js -->
-		<script src="js/custom.js"></script>
-
+		<script type="text/javascript">
+		$(document).ready( function () {
+			jQuery(function($) { // DOM is now read and ready to be manipulated
+				$('table').DataTable({
+					"order": [[ 0, "desc" ]]
+				});
+			});
+		    
+		} );
+		</script>
  
 	</body>
 </html>
