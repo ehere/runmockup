@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 		<meta charset="utf-8">
-		<title>Cypras-One page html5 template</title>
+		<title>Running Connect</title>
 		<meta name="description" content="">
 		<!-- Mobile Specific Metas
 	================================================== -->
@@ -78,7 +78,7 @@
 			<div class="carousel-inner">
 				<div class="item active">
 					<div class="overlay-slide">
-						<img src="images/banner/p3.jpg" alt="" class="img-responsive">
+						<img src="images/event/Long-Run-Maldives-2016.jpg" alt="" class="img-responsive">
 					</div>
 					<div class="carousel-caption">
 						<div class="col-md-12 col-xs-12 text-center">
@@ -91,7 +91,7 @@
 				</div>
 				<div class="item">
 					<div class="overlay-slide">
-						<img src="images/banner/p5.jpg" alt="" class="img-responsive">
+						<img src="images/event/Phuket-Marathon-half-marathon-start.jpg" alt="" class="img-responsive">
 					</div>
 					<div class="carousel-caption">
 						<div class="col-md-12 col-xs-12 text-center">
