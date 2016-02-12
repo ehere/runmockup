@@ -19,7 +19,7 @@
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-- Animation -->
 		<link rel="stylesheet" href="css/animate.css" />
 		<!-- Owl Carousel -->
@@ -34,9 +34,7 @@
 		<!-- Responsive -->
 		<link rel="stylesheet" href="css/responsive.css" />
 		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-		<style type="text/css">
-			body{background-color: #e5e5e5;}
-		</style>
+		<script type="text/javascript" src="js/jquery.js"></script>
 	</head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -62,103 +60,91 @@
 						<ul class="nav navbar-nav navbar-right ">
 							<li><a href="./" class="page-scroll">หน้าหลัก </a></li>
 							<li><a href="./allevent.php"  class="page-scroll">อีเว้นท์ทั้งหมด</a> </li>
-							<li class="active"><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
+							<li><a href="./myracehistory.php" class="page-scroll">รายการแข่งที่สมัคร</a> </li>
 							<li><a href="./login.php" class="page-scroll">ออกจากระบบ</a> </li>
 						</ul>
 					 </nav>
 				</div><!-- /.container-fluid -->
 </header>
-<!-- Event Title Start -->
-<section id="event-title" style="padding-top:100px;padding-bottom:14px;">
+
+<!-- Conatct Area Start-->
+
+<section id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="feature_header">
-					<div class="row">
-						<div class="col-md-7">
-							<h3 class="feature_title" style="margin:0;width:100%"><b>รายการแข่งที่สมัคร</b></h3>
-						</div>
-						<div class="col-md-5">
-							<div class="input-group">
-								<input type="text" class="form-control" placeholder="ใส่คำค้น">
-								<span class="input-group-btn">
-									<button class="btn btn-default" type="button">ค้นหา</button>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>  <!-- Col-md-12 End -->
-		</div>	
-	</div>
-</section>
-<!-- Event Title end -->
-
-<section id="event-detail">
-<div class="container">
-	<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-12">
-			<div class="panel panel-warning">
-				<div class="panel-heading">รายการใบสมัคร</div>
-				<div class="panel-body" style="padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;">
-					<table class="table">
-						<tr>
-							<th>หมายเลขใบสมัคร</th>
-							<th>ชื่องาน</th>
-							<th>สถานะ</th>
-							<th></th>
-						</tr>
-						<tr>
-							<td><a href="./result-notpaid.php">11234</a></td>
-							<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
-							<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
-							<td>
-								<a href="./result-notpaid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
-								<a href="./informtransfer.php" class="btn btn-default"><i class="fa fa-money"></i> แจ้งโอนเงิน</a>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="./result-paid.php">10562</a></td>
-							<td><a href="./event.php">Phuket Marathon</a></td>
-							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
-							<td>
-								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="./result-paid.php">9643</a></td>
-							<td><a href="./event.php">Laguna Phuket International Marathon 2016</a></td>
-							<td><span class="label label-success">ชำระเงินแล้ว</span></td>
-							<td>
-								<a href="./result-paid.php" class="btn btn-default"><i class="fa fa-desktop"></i> เปิด</a>
-							</td>
-						</tr>
-					</table>
+				<div class="feature_header text-center">
+					<h4 class="feature_title"><b>แจ้ง</b>การโอนเงิน</h4>
+					<div class="divider"></div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row pagination">
-		<div class="col-xs-5">
-			<a href="#" class="btn btn-lg btn-default pull-right"><i class="fa fa-chevron-left"></i> ก่อนหน้า</a>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<form class="form-horizontal" id="inform-transfer" action="#" method="post">
+					<div class="form-group form-inline">
+						<label for="order-id" class="col-sm-2 control-label">เลขที่ใบสมัคร</label>
+						<div class="col-sm-10">
+							<input name="order-id" value="00125" type="text" step="0.01" class="form-control" >
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="transfer-amount" class="col-sm-2 control-label">ยอดที่โอน</label>
+						<div class="col-sm-10">
+							<input name="transfer-amount" value="725.00" type="number" min="0" step="0.01" class="form-control" > บาท
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="transfer-date" class="col-sm-2 control-label">เวลาที่โอน</label>
+						<div class="col-sm-10">
+							<input name="transfer-date" value="450" type="datetime-local" class="form-control" >
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="tobank" class="col-sm-2 control-label">ธนาคารที่โอน</label>
+						<div class="col-sm-10">
+							<select name="group" id="tobank" class="form-control">
+								<option value="" disabled selected>โปรดเลือกธนาคาร</option>
+								<option value="SCB">ไทยพาณิชย์ 789-5-16352-3</option>
+								<option value="KTB">กรุงไทย 478-1-62534-3</option>
+								<option value="KBANK">กสิกร 243-1-47586-4</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="receipt" class="col-sm-2 control-label">หลักฐานการโอนเงิน</label>
+						<div class="col-sm-10">
+							<input name="receipt" type="file" class="form-control">
+							<span class="text-danger">*การใช้หลักฐานปลอมมีความผิด พรบ.คอมพิวเตอร์</span> 
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<label for="remark" class="col-sm-2 control-label">หมายเหตุ</label>
+						<div class="col-sm-10">
+							<textarea name="remark" class="form-control" style="width:100%"></textarea> 
+						</div>
+					</div>
+
+					<div class="divider"></div>
+				</form>
+			</div>
 		</div>
-		<div class="col-xs-2">
-			<div class="input-group">
-				<input type="number" class="form-control" placeholder="Jump to" min="1">
-				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">ไป !</button>
-				</span>
-			</div><!-- /input-group -->
+		<div class="text-center">
+			<button class="btn btn-main featured" onclick="submitForm()">แจ้งโอนเงิน</button>
 		</div>
-		<div class="col-xs-5">
-			<a href="#" class="btn btn-lg btn-default pull-left">ถัดไป <i class="fa fa-chevron-right"></i></a>
-		</div>			
+		<script type="text/javascript">
+			function submitForm(){
+				jQuery(function($) { // DOM is now read and ready to be manipulated
+					$('#register-race').submit();
+				});
+			}
+		</script>
 	</div>
-</div>
 </section>
-<!-- Event Detail end -->
+
 
 <!-- Footer Area Start -->
+
 <section id="footer">
 	<div class="footer_top">
 		<div class="container">
@@ -266,9 +252,9 @@
 
 		<!-- initialize jQuery Library -->
 		<!-- Main jquery -->
-			<script type="text/javascript" src="js/jquery.js"></script>
+		
 		<!-- Bootstrap jQuery -->
-		 <script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 		<!-- Owl Carousel -->
 		<script src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
@@ -276,7 +262,7 @@
 
 		<script src="js/imagesloaded.min.js"></script>
 		<!-- Pretty Photo -->
-			<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 		<!-- SmoothScroll -->
 		<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<!-- Image Fancybox -->
@@ -295,32 +281,9 @@
 		<script src="js/jquery.singlePageNav.js"></script>
 		<!-- Wow Animation -->
 		<script type="js/javascript" src="js/wow.min.js"></script>
-		<!-- Google Map  Source -->
-		<script type="text/javascript" src="js/gmaps.js"></script>
 			 <!-- Custom js -->
 		<script src="js/custom.js"></script>
-		 <script>
-		// Google Map - with support of gmaps.js
-	 var map;
-		map = new GMaps({
-		  div: '#map',
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  scrollwheel: false,
-		  panControl: false,
-		  zoomControl: false,
-		});
 
-		map.addMarker({
-		  lat: 23.709921,
-		  lng: 90.407143,
-		  title: 'Smilebuddy',
-		  infoWindow: { 
-			content: '<p> Smilebuddy, Dhanmondhi 27</p>'
-		  },
-		  icon: "images/map1.png"
-		});
-		</script>
  
 	</body>
 </html>

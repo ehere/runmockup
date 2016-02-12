@@ -143,7 +143,7 @@
 							<h3 class="feature_title" style="margin:0;"><b>Ladkrabang Running 2016</b></h3>
 						</div>
 						<div class="col-md-6">
-							<img src="./images/countdown.jpg">
+							<img src="./images/countdown.jpg" style="width:100%">
 						</div>
 					</div>
 				</div>
@@ -170,11 +170,12 @@
 
 
 	<div id="isotope-filter" class="skew3 text-center">
-		<a data-filter="*"  href="#" class="active ">All</a>
-		<a data-filter=".identity"  href="#" class="">Marathon</a>
-		<a data-filter=".web-design" href="#"  class="">Fun Run</a>
-		<a data-filter=".graphic"  href="#" class="">Half Marathon</a>
-		<a data-filter=".logo"  href="#" class="">5 Km</a>
+		<a data-filter="*"  href="#" class="btn btn-default btn-xs">All</a>
+		<a data-filter=".identity"  href="#" class="btn btn-default btn-xs">Marathon</a>
+		<a data-filter=".web-design" href="#"  class="btn btn-default btn-xs">Fun Run</a>
+		<a data-filter=".graphic"  href="#" class="btn btn-default btn-xs">Half Marathon</a>
+		<a data-filter=".logo"  href="#" class="btn btn-default btn-xs">5 Km</a>
+		<a data-filter=".logo" href="#" class="btn btn-default btn-xs">5 Km</a>
 	</div>
 	<div class="clearfix"></div>
 		<div class="text-center ">
@@ -487,7 +488,7 @@
 						</div>
 					</div>
 					<!-- Navigation start -->
-					<div class="customNavigation cyprass-carousel-controller">
+					<div class="customNavigation text-center">
 						<a class="prev left">
 							<i class="fa fa-chevron-left"></i>
 						</a>
