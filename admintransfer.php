@@ -111,7 +111,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><a href="./result-paid.php">11234</a></td>
+								<td><a href="./result-notpaid.php">11234</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>2243.00</td>
 								<td>2016-01-12 11:12:13</td>
@@ -126,7 +126,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11233</a></td>
+								<td><a href="./result-notpaid.php">11233</a></td>
 								<td>กสิกร 243-1-47586-4</td>
 								<td>1956.00</td>
 								<td>2016-01-12 10:10:09</td>
@@ -141,7 +141,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11232</a></td>
+								<td><a href="./result-notpaid.php">11232</a></td>
 								<td>กรุงไทย 478-1-62534-3</td>
 								<td>1230.00</td>
 								<td>2016-01-12 16:40:10</td>
@@ -156,7 +156,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11231</a></td>
+								<td><a href="./result-notpaid.php">11231</a></td>
 								<td>ไทยพาณิชย์ 789-5-16352-3</td>
 								<td>560.00</td>
 								<td>2016-01-11 13:52:15</td>
@@ -171,7 +171,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11230</a></td>
+								<td><a href="./result-notpaid.php">11230</a></td>
 								<td>ไทยพาณิชย์ 789-5-16352-3</td>
 								<td>1452.00</td>
 								<td>2016-01-11 13:02:59</td>

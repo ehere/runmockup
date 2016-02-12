@@ -109,7 +109,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><a href="./result-paid.php">11234</a></td>
+								<td><a href="./result-notpaid.php">11234</a></td>
 								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
 								<td>นายสมหมาย ทองดี</td>
 								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
@@ -136,7 +136,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11235</a></td>
+								<td><a href="./result-notpaid.php">11235</a></td>
 								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
 								<td>นายสมนึก คึกคัก</td>
 								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
@@ -163,7 +163,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11236</a></td>
+								<td><a href="./result-notpaid.php">11236</a></td>
 								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
 								<td>นายสมปอง สนองคุณ</td>
 								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
@@ -190,7 +190,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td><a href="./result-paid.php">11237</a></td>
+								<td><a href="./result-notpaid.php">11237</a></td>
 								<td><a href="./event.php">LADKRABANG RUNNING 2016</a></td>
 								<td>นายสมใจ ไพศาล</td>
 								<td><span class="label label-danger">ยังไม่ได้ชำระเงิน</span></td>
